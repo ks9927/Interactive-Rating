@@ -71,6 +71,7 @@ body {
   gap: 1em;
 }
 
+
 .rating-btn {
   padding: 1.5em;
   border-radius: 50%;
@@ -80,11 +81,11 @@ body {
   font-weight: var(--lg-weight);
   cursor: pointer;
 }
-.rating-btn:active {
+.rating-btn:focus{
   background-color: var(--white);
   color: var(--dark-blue);
 }
-.rating-btn:last-child:active {
+.rating-btn:last-child:focus {
   background-color: var(--orange);
 }
 .submit-div {
@@ -120,7 +121,7 @@ body {
   padding: 3em;
   border-radius: 20px;
   padding-bottom: 5em;
-  display: block;
+  display: none;
 }
 
 .thanks-illu {
