@@ -75,8 +75,15 @@ body {
   background-color: hsla(217, 12%, 63%, 0.1);
   color: var(--light-grey);
   font-weight: var(--lg-weight);
+  cursor: pointer;
 }
-
+.rating-btn:active {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+.rating-btn:last-child:active {
+  background-color: var(--orange);
+}
 .submit-div {
   display: flex;
   justify-content: center;
@@ -93,6 +100,12 @@ body {
   font-weight: var(--lg-weight);
   letter-spacing: 2px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.submit-button:active {
+  background-color: var(--white);
+  border: solid 2px var(--white);
 }
 
 /* Attr DIv */
