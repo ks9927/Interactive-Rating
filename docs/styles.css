@@ -30,9 +30,9 @@ body {
 
 .rating-container {
   background-color: var(--dark-blue);
-  width: 50%;
-  height: 50%;
-  padding: 3em;
+  width: 100%;
+  height: auto;
+  padding: 1.5em;
   border-radius: 20px;
 }
 
@@ -43,10 +43,12 @@ body {
 }
 
 .star-icon {
-  background-color: var(--light-grey);
+  background-color: var(--dark-blue);;
   border-radius: 50px;
-  padding: 0.25em;
-  width: 8%;
+  width: 15%;
+  padding: 1em;
+  height: auto;
+  margin-top: 1em;
   margin-bottom: 2em;
 }
 
@@ -58,17 +60,17 @@ body {
 .rate-buttons-div {
   margin-bottom: 2em;
   display: flex;
-  gap: 2em;
+  justify-content: flex-start;
+  gap: 1em;
 }
 
 .rating-btn {
   padding: 1.5em;
   border-radius: 50%;
   border: solid 2px var(--light-grey);
-  background-color: var(--light-grey);
-  color: var(--white);
-  height: 10%;
-  width: 10%;
+  background-color: var(--dark-blue);
+  color: var(--light-grey);
+  font-weight: var(--lg-weight);
 }
 
 .submit-div {
@@ -79,9 +81,10 @@ body {
 
 .submit-button {
   background-color: var(--orange);
-  width: 50%;
-  border-radius: 10px;
-  padding: 0.50em;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  padding: 1em;
   border: solid 2px var(--orange);
   font-weight: var(--lg-weight);
   letter-spacing: 2px;
