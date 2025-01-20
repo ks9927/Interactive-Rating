@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: cornsilk;
+  background-color: var(--v-dark-blue);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -34,6 +34,7 @@ body {
   height: auto;
   padding: 1.5em;
   border-radius: 20px;
+  padding-bottom: 2.5em;
 }
 
 .rating-container h1,
@@ -43,7 +44,7 @@ body {
 }
 
 .star-icon {
-  background-color: var(--dark-blue);;
+  background-color: hsla(217, 12%, 63%, 0.1);
   border-radius: 50px;
   width: 15%;
   padding: 1em;
@@ -55,6 +56,8 @@ body {
 .rating-container p {
   margin-top: 1em;
   margin-bottom: 1.5em;
+  color: var(--light-grey);
+  line-height: 1.5em;
 }
 
 .rate-buttons-div {
@@ -67,8 +70,8 @@ body {
 .rating-btn {
   padding: 1.5em;
   border-radius: 50%;
-  border: solid 2px var(--light-grey);
-  background-color: var(--dark-blue);
+  border: solid 2px var(--dark-blue);
+  background-color: hsla(217, 12%, 63%, 0.1);
   color: var(--light-grey);
   font-weight: var(--lg-weight);
 }
