@@ -63,7 +63,8 @@ body {
 .rate-buttons-div {
   margin-bottom: 2em;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 1em;
 }
 
