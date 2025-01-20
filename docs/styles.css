@@ -77,6 +77,17 @@ body {
   align-items: center;
 }
 
+.submit-button {
+  background-color: var(--orange);
+  width: 50%;
+  border-radius: 10px;
+  padding: 0.50em;
+  border: solid 2px var(--orange);
+  font-weight: var(--lg-weight);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 /* Attr DIv */
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
