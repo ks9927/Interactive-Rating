@@ -28,6 +28,8 @@ body {
   font-family: var(--font-fam);
 }
 
+/* Rating Container */
+
 .rating-container {
   background-color: var(--dark-blue);
   width: 100%;
@@ -107,6 +109,18 @@ body {
   background-color: var(--white);
   border: solid 2px var(--white);
 }
+
+
+/* Thanks Box */
+
+
+
+
+
+
+
+
+
 
 /* Attr DIv */
 .attribution { font-size: 11px; text-align: center; }
