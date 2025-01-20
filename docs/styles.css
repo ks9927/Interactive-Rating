@@ -37,7 +37,7 @@ body {
   padding: 1.5em;
   border-radius: 20px;
   padding-bottom: 2.5em;
-  display: none;
+  
 }
 
 .rating-container h1,
@@ -120,6 +120,7 @@ body {
   padding: 3em;
   border-radius: 20px;
   padding-bottom: 5em;
+  display: block;
 }
 
 .thanks-illu {
