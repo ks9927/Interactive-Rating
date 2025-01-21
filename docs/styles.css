@@ -37,7 +37,6 @@ body {
   padding: 1.5em;
   border-radius: 20px;
   padding-bottom: 2.5em;
-  
 }
 
 .rating-container h1,
@@ -152,9 +151,21 @@ body {
   line-height: 1.6em;
 }
 
+@media screen and (min-width: 593px) {
+  .rating-container,
+  .thanks-container {
+    width: 75%;
+  }
 
+  
+}
 
-
+@media  screen and (min-width: 700px) {
+  .rating-container,
+  .thanks-container {
+    width: 50%;
+  }
+}
 
 
 
