@@ -4,8 +4,8 @@ Screenshot:
 ![Screenshot 2025-01-20 at 22-23-22 Interactive Rating Component](https://github.com/user-attachments/assets/cb976ab5-9b37-42cc-9668-7aa0fe275c43)
 
 
-Live Page:
-Solution Page:
+Live Page: https://ks9927.github.io/Interactive-Rating/
+Solution Page: https://www.frontendmentor.io/solutions/interactive-rating-componenet-_3ywghXPE9
 
 Made With:
 HTML
